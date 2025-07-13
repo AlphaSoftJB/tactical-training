@@ -13,10 +13,10 @@ const trainingCategories = {
     description: 'Practice drawing and holstering weapons',
     icon: Target,
     mainActions: [
-      { id: 'gun', name: 'Gun', voice: 'Gun', image: '/images/gun.jpg' },
-      { id: 'taser', name: 'Taser', voice: 'Taser', image: '/images/taser.jpg' }
+      { id: 'gun', name: 'Gun', voice: 'Gun', image: '/tactical-training/images/gun.jpg' },
+      { id: 'taser', name: 'Taser', voice: 'Taser', image: '/tactical-training/images/taser.jpg' }
     ],
-    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/images/holster_training.jpg' }
+    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/tactical-training/images/holster_training.jpg' }
   },
   ready_position: {
     id: 'ready_position',
@@ -24,12 +24,12 @@ const trainingCategories = {
     description: 'Practice various ready positions',
     icon: Shield,
     mainActions: [
-      { id: 'holster_index', name: 'Holster Index', voice: 'Holster Index', image: '/images/IMG_3248.jpeg' },
-      { id: 'temple_index', name: 'Temple Index', voice: 'Temple Index', image: '/images/IMG_3249.jpeg' },
-      { id: 'low_ready', name: 'Low Ready', voice: 'Low Ready', image: '/images/IMG_3250.jpeg' },
-      { id: 'sul_position', name: 'Sul Position', voice: 'Sul Position', image: '/images/IMG_3251.jpeg' }
+      { id: 'holster_index', name: 'Holster Index', voice: 'Holster Index', image: '/tactical-training/images/IMG_3248.jpeg' },
+      { id: 'temple_index', name: 'Temple Index', voice: 'Temple Index', image: '/tactical-training/images/IMG_3249.jpeg' },
+      { id: 'low_ready', name: 'Low Ready', voice: 'Low Ready', image: '/tactical-training/images/IMG_3250.jpeg' },
+      { id: 'sul_position', name: 'Sul Position', voice: 'Sul Position', image: '/tactical-training/images/IMG_3251.jpeg' }
     ],
-    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/images/holster_training.jpg' }
+    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/tactical-training/images/holster_training.jpg' }
   },
   flashlight_techniques: {
     id: 'flashlight_techniques',
@@ -37,12 +37,12 @@ const trainingCategories = {
     description: 'Practice flashlight and handgun combinations',
     icon: Flashlight,
     mainActions: [
-      { id: 'fbi_technique', name: 'Modified FBI Technique', voice: 'FBI Technique', image: '/images/IMG_3253.jpeg' },
-      { id: 'neck_temple', name: 'Neck/Temple Index', voice: 'Temple Index', image: '/images/IMG_3282.jpeg' },
-      { id: 'harries', name: 'Harries Technique', voice: 'Harries', image: '/images/IMG_3259.jpeg' },
-      { id: 'reverse_harries', name: 'Ayoob/Reverse Harries', voice: 'Reverse Harries', image: '/images/IMG_3256.jpeg' }
+      { id: 'fbi_technique', name: 'Modified FBI Technique', voice: 'FBI Technique', image: '/tactical-training/images/IMG_3253.jpeg' },
+      { id: 'neck_temple', name: 'Neck/Temple Index', voice: 'Temple Index', image: '/tactical-training/images/IMG_3282.jpeg' },
+      { id: 'harries', name: 'Harries Technique', voice: 'Harries', image: '/tactical-training/images/IMG_3259.jpeg' },
+      { id: 'reverse_harries', name: 'Ayoob/Reverse Harries', voice: 'Reverse Harries', image: '/tactical-training/images/IMG_3256.jpeg' }
     ],
-    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/images/holster_training.jpg' }
+    holsterAction: { id: 'holster', name: 'Holster', voice: 'Holster', image: '/tactical-training/images/holster_training.jpg' }
   }
 }
 
