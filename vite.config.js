@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/tactical-training-app/', // Add this line
+  base: '/tactical-training/', // <-- This should match your repo name!
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -22,5 +22,4 @@ export default defineConfig({
     origin: 'https://5173-i7awqdimkjsnu5j6g802w-7b65c885.manusvm.computer'
   }
 })
-
 
