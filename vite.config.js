@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/tactical-training/',
-  plugins: [react(), tailwindcss()],
+  plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -22,3 +22,5 @@ export default defineConfig({
     origin: 'https://5173-i7awqdimkjsnu5j6g802w-7b65c885.manusvm.computer'
   }
 })
+
+
