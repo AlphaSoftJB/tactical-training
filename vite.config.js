@@ -5,10 +5,11 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
+  base: '/tactical-training/', // Ensures assets are prefixed with /tactical-training/
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   server: {
@@ -17,10 +18,8 @@ export default defineConfig({
       port: 5173,
     },
     watch: {
-      usePolling: true
+      usePolling: true,
     },
-    origin: 'https://5173-i7awqdimkjsnu5j6g802w-7b65c885.manusvm.computer'
-  }
+    origin: 'https://5173-i7awqdimkjsnu5j6g802w-7b65c885.manusvm.computer',
+  },
 })
-
-
