@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/tactical-training-app/', // Add this line
+  base: '/tactical-training/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

@@ -1,0 +1,127 @@
+tactical-training/
+├── public/
+│   ├── images/
+│   │   ├── IMG_3248.jpeg
+│   │   ├── IMG_3249.jpeg
+│   │   ├── IMG_3250.jpeg
+│   │   ├── IMG_3251.jpeg
+│   │   ├── IMG_3253.jpeg
+│   │   ├── IMG_3256.jpeg
+│   │   ├── IMG_3259.jpeg
+│   │   ├── IMG_3260.jpeg
+│   │   ├── IMG_3282.jpeg
+│   │   ├── fbi_technique.jpg
+│   │   ├── fbi_technique_sketch.jpg
+│   │   ├── firearms_training.jpg
+│   │   ├── flashlight_ref.jpg
+│   │   ├── gun.jpg
+│   │   ├── harries_technique.jpg
+│   │   ├── harries_technique_sketch.jpg
+│   │   ├── holster_index.jpg
+│   │   ├── holster_index_sketch.jpg
+│   │   ├── holster_training.jpg
+│   │   ├── law_enforcement.jpg
+│   │   ├── low_ready.jpg
+│   │   ├── low_ready_sketch.jpg
+│   │   ├── neck_temple_flashlight.jpg
+│   │   ├── neck_temple_flashlight_sketch.jpg
+│   │   ├── oc_spray.jpg
+│   │   ├── ready_positions_ref.jpg
+│   │   ├── reverse_harries.jpg
+│   │   ├── reverse_harries_sketch.jpg
+│   │   ├── sul_position.jpg
+│   │   ├── sul_position_sketch.jpg
+│   │   ├── taser.jpg
+│   │   ├── temple_index.jpg
+│   │   ├── temple_index_ref.jpg
+│   │   └── temple_index_sketch.jpg
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── fbi_technique.jpg
+│   │   │   ├── firearms_training.jpg
+│   │   │   ├── flashlight_ref.jpg
+│   │   │   ├── gun.jpg
+│   │   │   ├── harries_technique.jpg
+│   │   │   ├── holster_index.jpg
+│   │   │   ├── holster_training.jpg
+│   │   │   ├── law_enforcement.jpg
+│   │   │   ├── low_ready.jpg
+│   │   │   ├── neck_temple_flashlight.jpg
+│   │   │   ├── oc_spray.jpg
+│   │   │   ├── ready_positions_ref.jpg
+│   │   │   ├── reverse_harries.jpg
+│   │   │   ├── sul_position.jpg
+│   │   │   ├── taser.jpg
+│   │   │   ├── temple_index.jpg
+│   │   │   └── temple_index_ref.jpg
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── ui/
+│   │       ├── accordion.jsx
+│   │       ├── alert-dialog.jsx
+│   │       ├── alert.jsx
+│   │       ├── aspect-ratio.jsx
+│   │       ├── avatar.jsx
+│   │       ├── badge.jsx
+│   │       ├── breadcrumb.jsx
+│   │       ├── button.jsx
+│   │       ├── calendar.jsx
+│   │       ├── card.jsx
+│   │       ├── carousel.jsx
+│   │       ├── chart.jsx
+│   │       ├── checkbox.jsx
+│   │       ├── collapsible.jsx
+│   │       ├── command.jsx
+│   │       ├── context-menu.jsx
+│   │       ├── dialog.jsx
+│   │       ├── drawer.jsx
+│   │       ├── dropdown-menu.jsx
+│   │       ├── form.jsx
+│   │       ├── hover-card.jsx
+│   │       ├── input-otp.jsx
+│   │       ├── input.jsx
+│   │       ├── label.jsx
+│   │       ├── menubar.jsx
+│   │       ├── navigation-menu.jsx
+│   │       ├── pagination.jsx
+│   │       ├── popover.jsx
+│   │       ├── progress.jsx
+│   │       ├── radio-group.jsx
+│   │       ├── resizable.jsx
+│   │       ├── scroll-area.jsx
+│   │       ├── select.jsx
+│   │       ├── separator.jsx
+│   │       ├── sheet.jsx
+│   │       ├── sidebar.jsx
+│   │       ├── skeleton.jsx
+│   │       ├── slider.jsx
+│   │       ├── sonner.jsx
+│   │       ├── switch.jsx
+│   │       ├── table.jsx
+│   │       ├── tabs.jsx
+│   │       ├── textarea.jsx
+│   │       ├── toggle-group.jsx
+│   │       ├── toggle.jsx
+│   │       └── tooltip.jsx
+│   ├── hooks/
+│   │   └── use-mobile.js
+│   ├── lib/
+│   │   └── utils.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── ENHANCED_APP_SUMMARY.md
+├── FINAL_UPDATE_SUMMARY.md
+├── FIXES_AND_IMPROVEMENTS_SUMMARY.md
+├── GITHUB_ACTIONS_DEPLOYMENT_GUIDE.md
+├── README.md
+├── TIMER_REMOVAL_UPDATE.md
+├── architecture-design.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── todo.md
+└── vite.config.js
