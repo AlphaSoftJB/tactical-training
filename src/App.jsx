@@ -254,7 +254,7 @@ function App() {
 
   // Disclaimer Component
   const DisclaimerFootnote = () => (
-      <div className="fixed bottom-0 left-0 right-0 bg-gray-900/95 border-t border-gray-700 p-2 sm:p-3">
+      <div className="fixed bottom-0 left-0 right-0 bg-gray-900/95 border-t border-gray-700 p-2 sm:p-3 z-10">
         <div className="max-w-6xl mx-auto">
           <p className="text-xs sm:text-sm text-gray-400 text-center leading-relaxed">
             <strong className="text-gray-300">Disclaimer:</strong> This visual simulation web application was created exclusively for personal use in connection with Session 79 at-home training. It is not affiliated with, endorsed by, or representative of the Montgomery County Police Department (MCPD) or any related agencies. The content is intended solely for individual study and practice purposes. Sharing, distributing, or reproducing this application or its contents in any form is strictly prohibited and constitutes a violation of its intended use.
@@ -327,7 +327,7 @@ function App() {
           </div>
 
           {/* Global Settings Panel */}
-          <div className="mb-8 lg:mb-12">
+          <div className="mb-16 lg:mb-20 relative z-20">
             <Button
                 onClick={() => setShowSettings(!showSettings)}
                 className="control-button mb-4 text-sm sm:text-base"
@@ -366,6 +366,7 @@ function App() {
                 </Card>
             )}
           </div>
+          {showSettings && <DisclaimerFootnote />}
         </div>
       </div>
   )
@@ -471,8 +472,11 @@ function App() {
 
   return (
       <div className="App">
-        {currentView === 'category-selection' ? <CategorySelectionView /> : <TrainingView />}
-        <DisclaimerFootnote />
+        {currentView === 'category-selection' ? (
+            <CategorySelectionView />
+        ) : (
+            <TrainingView />
+        )}
       </div>
   )
 }
